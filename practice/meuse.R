@@ -11,3 +11,6 @@ class(meuse)
 ## [1] "SpatialPointsDataFrame"
 ## attr(,"package")
 ## [1] "sp"
+bubble(meuse, "zinc", maxsize = 2.5,
+       main = "zinc concentrations (ppm)", key.entries = 2^(-1:4))
+
